@@ -1,0 +1,410 @@
+@prefix res: <http://www.w3.org/2005/sparql-results#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+_:_ a res:ResultSet .
+_:_ res:resultVariable "movie" , "title" , "genre" .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cabin_by_the_Lake ] ;
+      res:binding [ res:variable "title" ; res:value "Cabin by the Lake"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Horror_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cabocla ] ;
+      res:binding [ res:variable "title" ; res:value "Cabocla"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Telenovela ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cadena_braga ] ;
+      res:binding [ res:variable "title" ; res:value "Cadena braga"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Telenovela ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cadet_Kelly ] ;
+      res:binding [ res:variable "title" ; res:value "Cadet Kelly"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Romance_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cadet_Kelly ] ;
+      res:binding [ res:variable "title" ; res:value "Cadet Kelly"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cadet_Kelly ] ;
+      res:binding [ res:variable "title" ; res:value "Cadet Kelly"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Teen_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cage_Without_a_Key ] ;
+      res:binding [ res:variable "title" ; res:value "Cage Without a Key"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Drama_(film_and_television)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Caleta_del_sol ] ;
+      res:binding [ res:variable "title" ; res:value "Caleta del sol"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Romance_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Caleta_del_sol ] ;
+      res:binding [ res:variable "title" ; res:value "Caleta del sol"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Drama ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Call_Me_Claus ] ;
+      res:binding [ res:variable "title" ; res:value "Call Me Claus"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Calvento_Files ] ;
+      res:binding [ res:variable "title" ; res:value "Calvento Files"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Documentary_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Calvento_Files ] ;
+      res:binding [ res:variable "title" ; res:value "Calvento Files"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Drama ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Camp_Wilder ] ;
+      res:binding [ res:variable "title" ; res:value "Camp Wilder"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Campus_(TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Campus (TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Canadian_Made ] ;
+      res:binding [ res:variable "title" ; res:value "Canadian Made"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Documentary ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Cancer_(film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Cancer (film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Documentary_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Capitol_(TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Capitol (TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Soap_opera ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Captain_America_(1979_film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Captain America (1979 film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_film ] ] .
+@prefix ns1:	<http://dbpedia.org/resource/Captain_America_II:> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns1:_Death_Too_Soon ] ;
+      res:binding [ res:variable "title" ; res:value "Captain America II: Death Too Soon"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Action_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns1:_Death_Too_Soon ] ;
+      res:binding [ res:variable "title" ; res:value "Captain America II: Death Too Soon"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns1:_Death_Too_Soon ] ;
+      res:binding [ res:variable "title" ; res:value "Captain America II: Death Too Soon"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Captain Barbell (2011 TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Drama_(film_and_television)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Captain Barbell (2011 TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Action_genre ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Captain Barbell (2011 TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Fantasy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Captain_of_Destiny ] ;
+      res:binding [ res:variable "title" ; res:value "Captain of Destiny"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Adventure_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Capturing_Mary ] ;
+      res:binding [ res:variable "title" ; res:value "Capturing Mary"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Drama ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Caras_&_Bocas> ] ;
+      res:binding [ res:variable "title" ; res:value "Caras & Bocas"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Telenovela ] ] .
+@prefix ns2:	<http://dbpedia.org/resource/Caravan_of_Courage:> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns2:_An_Ewok_Adventure ] ;
+      res:binding [ res:variable "title" ; res:value "Caravan of Courage: An Ewok Adventure"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Fantasy_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Caribbean_Cops ] ;
+      res:binding [ res:variable "title" ; res:value "Caribbean Cops"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Documentary_film ] ] .
+@prefix ns3:	<http://dbpedia.org/resource/Carmen:> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns3:_A_Hip_Hopera ] ;
+      res:binding [ res:variable "title" ; res:value "Carmen: A Hip Hopera"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Romance_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns3:_A_Hip_Hopera ] ;
+      res:binding [ res:variable "title" ; res:value "Carmen: A Hip Hopera"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Musical_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:CarniK_Con ] ;
+      res:binding [ res:variable "title" ; res:value "CarniK Con"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Carny_(2009_film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Carny (2009 film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Horror_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Carolina_Moon_(2007_film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Carolina Moon (2007 film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Thriller_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Carolina_Moon_(2007_film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Carolina Moon (2007 film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Drama_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Caroline_in_the_City ] ;
+      res:binding [ res:variable "title" ; res:value "Caroline in the City"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Carrie_(2002_film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Carrie (2002 film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Horror_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cars_Toons ] ;
+      res:binding [ res:variable "title" ; res:value "Cars Toons"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Case_Closed_(film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Case Closed (film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Mystery_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Case_Closed_(film)> ] ;
+      res:binding [ res:variable "title" ; res:value "Case Closed (film)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Detective_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Cast_a_Deadly_Spell ] ;
+      res:binding [ res:variable "title" ; res:value "Cast a Deadly Spell"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Fantasy_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Amritpal_Chotu ] ;
+      res:binding [ res:variable "title" ; res:value "Amritpal Chotu"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:One-line_joke ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Amritpal_Chotu ] ;
+      res:binding [ res:variable "title" ; res:value "Amritpal Chotu"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Observational_comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Amritpal_Chotu ] ;
+      res:binding [ res:variable "title" ; res:value "Amritpal Chotu"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Musical_comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Beautiful_Skin ] ;
+      res:binding [ res:variable "title" ; res:value "Beautiful Skin"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Electronic_music ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Beautiful_Skin ] ;
+      res:binding [ res:variable "title" ; res:value "Beautiful Skin"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Post-punk ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Beautiful_Skin ] ;
+      res:binding [ res:variable "title" ; res:value "Beautiful Skin"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Indie_music ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Lightspeed_Rescue ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Lightspeed Rescue"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Lightspeed_Rescue ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Lightspeed Rescue"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Action_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Lightspeed_Rescue ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Lightspeed Rescue"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fantasy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Lightspeed_Rescue ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Lightspeed Rescue"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Adventure_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Mystic_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Mystic Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Mystic_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Mystic Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Action_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Mystic_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Mystic Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Adventure_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Mystic_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Mystic Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fantasy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_RPM ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers RPM"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Cyberpunk ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_RPM ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers RPM"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Post-apocalyptic ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_RPM ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers RPM"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_RPM ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers RPM"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Action-adventure ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_RPM ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers RPM"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Dystopian_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Time_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Time Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Time_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Time Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Action_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Time_Force ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Time Force"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Turbo ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Turbo"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Turbo ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Turbo"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Superhero_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Turbo ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Turbo"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Action_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Power_Rangers_Turbo ] ;
+      res:binding [ res:variable "title" ; res:value "Power Rangers Turbo"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Science_fantasy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Preciosas ] ;
+      res:binding [ res:variable "title" ; res:value "Preciosas"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Comedy_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Preciosas ] ;
+      res:binding [ res:variable "title" ; res:value "Preciosas"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Action_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Princesses_(TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Princesses (TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Private_Lives ] ;
+      res:binding [ res:variable "title" ; res:value "Private Lives"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Romantic_comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Processional_(play)> ] ;
+      res:binding [ res:variable "title" ; res:value "Processional (play)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Modernist ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Project_Viper ] ;
+      res:binding [ res:variable "title" ; res:value "Project Viper"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sci-fi ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Project_Viper ] ;
+      res:binding [ res:variable "title" ; res:value "Project Viper"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Thriller_(genre)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Prosperity_(Singaporean_TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Prosperity (Singaporean TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Chinese_New_Year ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Prosto_w_serce ] ;
+      res:binding [ res:variable "title" ; res:value "Prosto w serce"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Soap_opera ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Psychoville ] ;
+      res:binding [ res:variable "title" ; res:value "Psychoville"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Mystery_fiction ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Psychoville ] ;
+      res:binding [ res:variable "title" ; res:value "Psychoville"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Psychological_horror ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Psychoville ] ;
+      res:binding [ res:variable "title" ; res:value "Psychoville"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Psychological_thriller ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Psychoville ] ;
+      res:binding [ res:variable "title" ; res:value "Psychoville"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Black_comedy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Psychoville ] ;
+      res:binding [ res:variable "title" ; res:value "Psychoville"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Public_Life_with_Randy_David ] ;
+      res:binding [ res:variable "title" ; res:value "Public Life with Randy David"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Public_affairs_(broadcasting)> ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Public_Morals_(1996_TV_series)> ] ;
+      res:binding [ res:variable "title" ; res:value "Public Morals (1996 TV series)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Sitcom ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puff_the_Magic_Dragon_in_the_Land_of_the_Living_Lies ] ;
+      res:binding [ res:variable "title" ; res:value "Puff the Magic Dragon in the Land of the Living Lies"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Animation ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puff_the_Magic_Dragon_in_the_Land_of_the_Living_Lies ] ;
+      res:binding [ res:variable "title" ; res:value "Puff the Magic Dragon in the Land of the Living Lies"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Family_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puff_the_Magic_Dragon_in_the_Land_of_the_Living_Lies ] ;
+      res:binding [ res:variable "title" ; res:value "Puff the Magic Dragon in the Land of the Living Lies"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Fantasy ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puff_the_Magic_Dragon_in_the_Land_of_the_Living_Lies ] ;
+      res:binding [ res:variable "title" ; res:value "Puff the Magic Dragon in the Land of the Living Lies"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Short_film ] ] .
+@prefix ns4:	<http://dbpedia.org/resource/Pumpkinhead:> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns4:_Ashes_to_Ashes ] ;
+      res:binding [ res:variable "title" ; res:value "Pumpkinhead: Ashes to Ashes"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Horror_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns4:_Ashes_to_Ashes ] ;
+      res:binding [ res:variable "title" ; res:value "Pumpkinhead: Ashes to Ashes"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Slasher_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns4:_Blood_Feud ] ;
+      res:binding [ res:variable "title" ; res:value "Pumpkinhead: Blood Feud"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Horror_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns4:_Blood_Feud ] ;
+      res:binding [ res:variable "title" ; res:value "Pumpkinhead: Blood Feud"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Slasher_film ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puttur_Narasimha_Nayak ] ;
+      res:binding [ res:variable "title" ; res:value "Puttur Narasimha Nayak"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Indian_classical ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puttur_Narasimha_Nayak ] ;
+      res:binding [ res:variable "title" ; res:value "Puttur Narasimha Nayak"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Bhajans ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value dbr:Puttur_Narasimha_Nayak ] ;
+      res:binding [ res:variable "title" ; res:value "Puttur Narasimha Nayak"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Playback_singing ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/P\u00E1ginas_da_Vida> ] ;
+      res:binding [ res:variable "title" ; res:value "P\u00E1ginas da Vida"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Slice_of_life ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/P\u00E1ginas_da_Vida> ] ;
+      res:binding [ res:variable "title" ; res:value "P\u00E1ginas da Vida"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Telenovela ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/P\u00E1ginas_da_Vida> ] ;
+      res:binding [ res:variable "title" ; res:value "P\u00E1ginas da Vida"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Family_drama ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/P\u00E1tria_Minha> ] ;
+      res:binding [ res:variable "title" ; res:value "P\u00E1tria Minha"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Telenovela ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value <http://dbpedia.org/resource/Quantum_Gate_(video_game)> ] ;
+      res:binding [ res:variable "title" ; res:value "Quantum Gate (video game)"@en ] ;
+      res:binding [ res:variable "genre" ; res:value dbr:Interactive_movie ] ] .
+@prefix ns5:	<http://dbpedia.org/resource/Quicksand:> .
+_:_ res:solution [
+      res:binding [ res:variable "movie" ; res:value ns5:_No_Escape ] ;
+      res:binding [ res:variable "title" ; res:value "Quicksand: No Escape"@en ] ;
+      res:binding [ res:variable "genre" ; res:value <http://dbpedia.org/resource/Thriller_(genre)> ] ] .
