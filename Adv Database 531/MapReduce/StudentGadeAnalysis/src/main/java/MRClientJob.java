@@ -10,8 +10,8 @@ public class MRClientJob {
         // Create Configuration and MR Job objects
         Configuration conf = new Configuration();
         //
-        conf.set("yarn.resourcemanager.address", "localhost:8050");
-        conf.set("fs.defaultFS","hdfs://localhost:9000");
+//        conf.set("yarn.resourcemanager.address", "localhost:8050");
+//        conf.set("fs.defaultFS","hdfs://localhost:9000");
         Job job = Job.getInstance(conf, "Join Student and Course");
         //
         job.setJarByClass(MRClientJob.class);
