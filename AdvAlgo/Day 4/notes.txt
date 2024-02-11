@@ -1,0 +1,36 @@
+pseudocode of Floyd Warshal
+
+
+1.  Initialization: A matrix 'dist' ith infinity values
+
+Let dist be a |V| x |V| array of min distances initialized to infonity
+
+2.  Iterating through vertices
+    for each vertex V
+        dist[v][v] = 0
+3.   for each edge ege (u,v):
+        dist[u][v] = weight of edge (u,v)
+
+4. for k from 1 to |V|
+        for i from 1 to |V|
+            for j from 1 to |V|
+                if dist[i][k] + dist[k][j] < dist[i][j]:
+                    dist[i][j]  dist[i][k] + dist[k][j] 
+
+
+
+
+Why Do we need Floyd Warshall Algorithm?
+1. Optimize Network Efficiency: By defining the shortest paths across all the networks, we can optimize the cost or reduce the overhead of the resources.
+2. Solving Complex Problems: Traffic Management in telecommunication field, wireless sensor networks, logistical problems.
+3. Facilitate Decision Making in business, science, education, by
+• making datasets more efficient and operational networks.
+Real World Applications:
+1. Social Networking Services
+2. Robotics and Autonomous Vehicles
+3. Urban Traffic Management
+4. For dense graphs and negative graphs, this algo works well.
+[Hassan] | will be creating a discussion on Canvas for individuals, highligthing the real world applications, at least two and identify why Floyd Warshall Algo will fit in?
+
+
+tushar

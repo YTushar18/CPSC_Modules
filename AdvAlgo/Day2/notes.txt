@@ -1,0 +1,32 @@
+1.Ago Efficency methods
+    - RAM Model
+step counting
+asymptotic analysis/ notations 
+    Big O
+    Bih omega
+    tight bound
+
+Computational Problems
+    Linear Sorting
+
+Fundamentals of data structure:  arrays, lists, staks, queue, 
+
+sorting algorithms:
+    1. Bubble Sort
+    2. Insertion Sort: One item at a time
+    3. Merge Sort: Divide and conqure
+    4. Heap sort: Comparison based
+    5. Quick Sort: Pivot elementlogn
+        if n is the array size
+        Quick Sort time compexity
+            Partitioning = O(n)
+        best case scenario would be if array n is divided by half: n/2
+        T(n) = 2T(n/2) + O(n)
+
+        Best case & avg case: O(nlogn)
+
+        Worst case: O(n2)
+
+
+    6. Counting Sort: 
+

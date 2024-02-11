@@ -1,0 +1,33 @@
+1. Bubble Sort
+2. Insertion Sort
+3. Quick Sort
+4. Heap Sort
+
+Linear Sorting Algorithms:
+5. Counting Sorting
+6. Radix Sorting
+7. Bucket Sort 
+
+Medians & Orders Statistics Involves finding the k-th smallest element in the given array.
+8. Quick Select Method
+
+
+
+Big O Notations---------------------------------
+------------------------------------------------
+O(1) - COnstant Time Complexity
+O(log n)- logarithmic Time Complexity
+O(n) - Linear Time Complexity
+O(n log n) - Quasilinear Time Complexity
+O(n2) - Quatratic Time Complexity
+O(2n) - Exponential Time Complexity
+O(n!) - Factorial Time Complexity
+
+Heap Sort PseudoCode
+======================
+Goal: Sort array using heap Algorithms
+1. BuildMaxHeap(A)
+        for i = length(A) downto 2:
+            swap A[1] with A[i]
+        length(A) = length(A) - 1
+        MAxHeapify(A,1)
